@@ -3,7 +3,7 @@ terraform {
   backend "s3" {
     bucket = "eks-elab-tfstate"
     key    = "dev/eks-with-tf/iam-roles.tfstate"
-    region = "us-east-1"
+    region = "eu-west-2"
 
     dynamodb_table = "vpc-solution"
   }
